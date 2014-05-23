@@ -2,8 +2,8 @@ package serviceregistry
 
 import (
 	"fmt"
-	"git.koofr.lan/go-zkutils.git"
-	zk "launchpad.net/gozk"
+	"github.com/koofr/go-zkutils"
+	zk "github.com/koofr/gozk"
 	"sync"
 	"time"
 )

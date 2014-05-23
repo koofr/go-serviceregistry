@@ -1,12 +1,12 @@
 package serviceregistry_test
 
 import (
-	"git.koofr.lan/go-netutils.git"
-	. "git.koofr.lan/go-serviceregistry.git"
-	"git.koofr.lan/go-zkutils.git"
+	"github.com/koofr/go-netutils"
+	. "github.com/koofr/go-serviceregistry"
+	"github.com/koofr/go-zkutils"
+	zk "github.com/koofr/gozk"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	zk "launchpad.net/gozk"
 	"strconv"
 )
 

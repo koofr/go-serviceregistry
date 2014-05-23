@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"git.koofr.lan/go-serviceregistry.git"
+	"github.com/koofr/go-serviceregistry"
 	"os"
 	"os/signal"
 	"syscall"
